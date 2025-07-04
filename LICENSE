@@ -1,0 +1,33 @@
+Limited Use License
+
+Copyright (c) 2024-2025 Haoze (APRI Lab)
+
+This repository is maintained by Haoze, a member of APRI Lab, as part of a collaboration with the Industrial Technology Research Institute (ITRI).
+
+All materials in this repository — including documentation, instructional content, and application files — are provided exclusively for internal use by authorized ITRI personnel.
+
+Permission is granted to:
+- View and download the contents of this repository
+- Use the materials solely for internal evaluation, testing, and training purposes within ITRI
+
+The license granted herein is effective until terminated. APRI Lab and Haoze reserve the right to revoke this license at any time, with or without cause, upon written notice. Upon termination, all rights granted under this license shall immediately cease, and the authorized user must cease all use and destroy any copies of the materials.
+
+You may not:
+- Modify, redistribute, sublicense, or publicly re-publish the contents, including but not limited to source code, binary files, and documentation
+- Use the materials for commercial purposes without prior written consent
+- Reverse-engineer, decompile, or disassemble the application files
+- Use the contents outside the scope of the ITRI-APRI Lab collaboration
+
+This is a limited-use license. All other rights are reserved by APRI Lab.
+
+This repository is publicly visible for distribution convenience only. It does not constitute an open-source or public-use license. Unauthorized use is strictly prohibited.
+
+If you have questions regarding usage or licensing, please contact: justinsefr92019@gmail.com
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

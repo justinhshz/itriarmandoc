@@ -119,6 +119,8 @@ Refer to the [official Unity AR Mobile Template documentation](https://docs.unit
 4. Return to the Home Screen and tap the app icon to open it.
 5. Tap **Allow** when the "AR Holeplate Manual Would Like to Access the Camera" alert appears on first launch to enable camera access required for AR functionality.
 
+![Xcode Signing Configuration](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dev/xcode_signing_configuration.png)
+
 > [!TIP]
 > Sign up for a free Apple ID at [appleid.apple.com](https://appleid.apple.com) and enroll in the Developer Program at [developer.apple.com/programs](https://developer.apple.com/programs) to access additional features.
 
@@ -140,6 +142,9 @@ When the application starts, a prompt will appear asking you to select one of tw
 
 Tap your desired mode to proceed.
 
+![Mode Selection Flow - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/mode_selection_flow.png#gh-light-mode-only)
+![Mode Selection Flow - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/mode_selection_flow.png#gh-dark-mode-only)
+
 ### 2. Placing the Holeplate Model in AR
 
 When you reach this step, a sequence of on-screen hints will guide you:
@@ -156,12 +161,18 @@ Once placed, use the following gestures to interact with the model:
 2. **Scale Object** – pinch with two fingers to resize the model.
 3. **Rotate Object** – twist with two fingers to rotate the model.
 
+![Gesture Hints - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/gesture_hints.png#gh-light-mode-only)
+![Gesture Hints - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/gesture_hints.png#gh-dark-mode-only)
+
 ### 3. Interacting with the Holeplate (Both Modes)
 
 Once a model is placed and selected (tap to select; tap elsewhere to deselect), it will be highlighted with a different color to indicate selection:
 
 * **Selected color**: ![#7a7afa](https://placehold.co/15x15/7a7afa/7a7afa.png) `#7a7afa` (light purple)
 * **Unselected color**: ![#89929a](https://placehold.co/15x15/89929a/89929a.png) `#89929a` (cool gray)
+
+![Selected vs Unselected Colors - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/selected_vs_unselected_colors.png#gh-light-mode-only)
+![Selected vs Unselected Colors - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/selected_vs_unselected_colors.png#gh-dark-mode-only)
 
 In addition to this visual change, a bottom navigation panel will appear with the following controls:
 
@@ -175,7 +186,16 @@ These controls appear only after selecting a model.
 
 Additionally, in **Tutorial Mode**, the name of the current step will be displayed above the bottom navigation panel, helping you keep track of your progress.
 
+![Display vs Tutorial Modes - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/display_vs_tutorial_modes.png#gh-light-mode-only)
+![Display vs Tutorial Modes - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/display_vs_tutorial_modes.png#gh-dark-mode-only)
+
+![Controls Preview - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/controls_preview.png#gh-light-mode-only)
+![Controls Preview - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/controls_preview.png#gh-dark-mode-only)
+
 ### 4. Navigating back to the Home and Accessing the Option Menu
+
+![Home & Option Buttons - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/home_option_buttons.png#gh-light-mode-only)
+![Home & Option Buttons - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/home_option_buttons.png#gh-dark-mode-only)
 
 The app provides two persistent buttons for navigation and accessing additional tools:
 
@@ -187,6 +207,9 @@ The app provides two persistent buttons for navigation and accessing additional 
     * 🧪 **AR Debug Menu** – Access technical AR session information for advanced diagnostics.
 
 These features are available in both Display and Tutorial modes.
+
+![Visualize Surfaces Toggle - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/visualize_surfaces_toggle.png#gh-light-mode-only)
+![Visualize Surfaces Toggle - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/visualize_surfaces_toggle.png#gh-dark-mode-only)
 
 > [!TIP]
 > If no controls appear after placement, ensure the model is selected by tapping on it once in the AR scene.

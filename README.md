@@ -3,6 +3,7 @@
 [![Unity Version](https://img.shields.io/badge/Unity-2022.3.42f1-blue?logo=unity)](https://unity.com/releases/editor/whats-new/2022.3.42)
 [![Android](https://img.shields.io/badge/Android-Supported-success?logo=android&logoColor=white)](https://developer.android.com)
 [![iOS](https://img.shields.io/badge/iOS-Supported-success?logo=apple)](https://developer.apple.com)
+[![License: Limited Use](https://img.shields.io/badge/License-Limited%20Use-red.svg?logo=github)](LICENSE)
 
 Welcome to the **AR Holeplate Manual**, an augmented reality (AR) instructional application specifically developed for the **Industrial Technology Research Institute (ITRI)**. This document provides comprehensive installation steps and user guidance to help you deploy and interact with the application effectively across Android and iOS platforms.
 
@@ -65,7 +66,7 @@ Refer to the [official Unity AR Mobile Template documentation](https://docs.unit
 
 ### 🤖 Android – Manual Installation via APK (not via Google Play)
 
-1. Visit the [GitHub Releases page](https://github.com/justinhshz/itriarmanual/releases) using a browser on your computer or Android device, and download the latest APK file (`arhpmanual-android.apk`).
+1. Visit the [GitHub Releases page](https://github.com/justinhshz/itriarmandoc/releases) using a browser on your computer or Android device, and download the latest APK file (`arhpmanual-android.apk`).
 2. If you downloaded the APK on your computer, transfer it to your Android device using a USB cable (e.g., into the Downloads folder).
 3. On your Android device, open **Settings > Apps > Special app access > Install unknown apps** (this is the default path on stock Android, such as Pixel devices running Android 13 or newer. On some devices, the path may be slightly different, such as under **Security & Privacy**).
 4. Locate and tap the app (e.g., Chrome or your file manager), and enable **Allow from this source**.
@@ -82,7 +83,7 @@ Refer to the [official Unity AR Mobile Template documentation](https://docs.unit
 
 1. Ensure the latest version of Xcode is installed on your Mac from the Mac App Store.
 2. Connect your iPhone to the Mac via a USB cable and ensure the device is unlocked.
-3. Visit the [GitHub Releases page](https://github.com/justinhshz/itriarmanual/releases) and download the Xcode project zip file (`arhpmanual-ios-xcodeproj.zip`).
+3. Visit the [GitHub Releases page](https://github.com/justinhshz/itriarmandoc/releases) and download the Xcode project zip file (`arhpmanual-ios-xcodeproj.zip`).
 4. Unzip the project to a local folder.
 
 #### 2. Open and Configure the Xcode Project

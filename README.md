@@ -3,7 +3,10 @@
 [![Unity Version](https://img.shields.io/badge/Unity-2022.3.42f1-blue?logo=unity)](https://unity.com/releases/editor/whats-new/2022.3.42)
 [![Android](https://img.shields.io/badge/Android-Supported-success?logo=android&logoColor=white)](https://developer.android.com)
 [![iOS](https://img.shields.io/badge/iOS-Supported-success?logo=apple)](https://developer.apple.com)
+[![Language: zh-TW](https://img.shields.io/badge/Language-zh--TW-orange?logo=googletranslate&logoColor=white)](README.zh-TW.md)
 [![License: Limited Use](https://img.shields.io/badge/License-Limited%20Use-red.svg?logo=github)](LICENSE)
+
+> 🌐 The Traditional Chinese version of this document is available [here](README.zh-TW.md).
 
 Welcome to the **AR Holeplate Manual**, an augmented reality (AR) instructional application specifically developed for the **Industrial Technology Research Institute (ITRI)**. This document provides comprehensive installation steps and user guidance to help you deploy and interact with the application effectively across Android and iOS platforms.
 
@@ -34,6 +37,7 @@ The **AR Holeplate Manual** is an educational tool that leverages AR technology 
 * Step selection for direct navigation within tutorial sequences
 * Step-by-step animated instruction with speed control
 * Real-time toggle of hole labels and object deletion
+* Intuitive interface design suitable for all ages
 * Support for both Android and iOS platforms
 
 This application is built using Unity and AR Foundation to ensure a consistent and responsive cross-platform experience.
@@ -57,7 +61,7 @@ Refer to the [official Unity AR Mobile Template documentation](https://docs.unit
 
 ## 📋 System Requirements
 
-* **Android**: Android 11.0 or later
+* **Android**: Android 11.0 (API level 30) or later
 * **iOS**: iOS 12.0 or later
 
 ---
@@ -83,7 +87,7 @@ Refer to the [official Unity AR Mobile Template documentation](https://docs.unit
 
 1. Ensure the latest version of Xcode is installed on your Mac from the Mac App Store.
 2. Connect your iPhone to the Mac via a USB cable and ensure the device is unlocked.
-3. Visit the [GitHub Releases page](https://github.com/justinhshz/itriarmandoc/releases) and download the Xcode project zip file (`arhpmanual-ios-xcodeproj.zip`).
+3. Visit the [GitHub Releases page](https://github.com/justinhshz/itriarmandoc/releases) and download the latest Xcode project zip file (`arhpmanual-ios-xcodeproj.zip`).
 4. Unzip the project to a local folder.
 
 #### 2. Open and Configure the Xcode Project
@@ -101,7 +105,7 @@ Refer to the [official Unity AR Mobile Template documentation](https://docs.unit
             2. Choose the appropriate team if you belong to one.
             3. Xcode will automatically manage provisioning profiles and code signing.
         * If you don't have an Apple ID configured:
-            1. Click **Add an Account...**
+            1. Click **Add an Account...**.
             2. In the dialog that appears, choose the **Apple ID** tab.
             3. Click the **+** button and enter your Apple ID credentials.
             4. Select your Apple ID and click **Choose**.
@@ -138,8 +142,8 @@ This section describes how to interact with the AR Holeplate Manual application 
 
 When the application starts, a prompt will appear asking you to select one of two modes:
 
-* **Display Mode** – for basic viewing and interaction
-* **Tutorial Mode** – for step-by-step guided animation playback
+* **Display Mode** – for basic viewing and interaction.
+* **Tutorial Mode** – for step-by-step guided animation playback.
 
 Tap your desired mode to proceed.
 
@@ -154,7 +158,7 @@ When you reach this step, a sequence of on-screen hints will guide you:
 * **Tap to Place** – tap the screen to position the Holeplate model in AR.
 
 > [!NOTE]
-> Virtual Holeplate is rendered at a 1:1 scale, matching real-world dimensions exactly.
+> By default, the Virtual Holeplate is rendered at a 1:1 scale, matching real-world dimensions exactly.
 
 Once placed, use the following gestures to interact with the model:
 
@@ -169,8 +173,8 @@ Once placed, use the following gestures to interact with the model:
 
 Once a model is placed and selected (tap to select; tap elsewhere to deselect), it will be highlighted with a different color to indicate selection:
 
-* **Selected color**: ![#7a7afa](https://placehold.co/15x15/7a7afa/7a7afa.png) `#7a7afa` (light purple)
-* **Unselected color**: ![#89929a](https://placehold.co/15x15/89929a/89929a.png) `#89929a` (cool gray)
+* **Selected color** – ![#7a7afa](https://placehold.co/15x15/7a7afa/7a7afa.png) `#7a7afa` (light purple).
+* **Unselected color** – ![#89929a](https://placehold.co/15x15/89929a/89929a.png) `#89929a` (cool gray).
 
 ![Selected vs Unselected Colors - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/selected_vs_unselected_colors.png#gh-light-mode-only)
 ![Selected vs Unselected Colors - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/selected_vs_unselected_colors.png#gh-dark-mode-only)
@@ -193,6 +197,9 @@ Additionally, in **Tutorial Mode**, the name of the current step will be display
 ![Controls Preview - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/controls_preview.png#gh-light-mode-only)
 ![Controls Preview - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/controls_preview.png#gh-dark-mode-only)
 
+> [!TIP]
+> If no controls appear after placement, ensure the model is selected by tapping on it once in the AR scene.
+
 ### 4. Navigating back to the Home and Accessing the Option Menu
 
 ![Home & Option Buttons - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/home_option_buttons.png#gh-light-mode-only)
@@ -211,9 +218,6 @@ These features are available in both Display and Tutorial modes.
 
 ![Visualize Surfaces Toggle - Light](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/light/visualize_surfaces_toggle.png#gh-light-mode-only)
 ![Visualize Surfaces Toggle - Dark](https://raw.githubusercontent.com/justinhshz/itriarmandoc/main/images/dark/visualize_surfaces_toggle.png#gh-dark-mode-only)
-
-> [!TIP]
-> If no controls appear after placement, ensure the model is selected by tapping on it once in the AR scene.
 
 ---
 
